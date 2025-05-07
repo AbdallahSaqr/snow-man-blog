@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snow Man Blog</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <input type="button" value="About" class="aboutbtn col-2">
+    <input type="button" value="Gallery" class="gallerybtn col-2">
+    <input type="button" value="Services" class="servicesbtn col-2">
+    <input type="button" value="Complain" class="complainbtn col-2">
+    <div class="about">
+        <p>
+            Story About Snow Man
+        </p>
+    </div>
+    <div class="gallery">
+        <a href="#" class="leftbtn">
+            <img src="./imgs/left.png" class="left">
+        </a>
+        <img src="./imgs/1.jpg" class="img ">
+        <a href="#" class="rightbtn"> >
+            <img src="./imgs/right.png" class="right">
+        </a>
+    </div>
+    <div class="services">
+        <ul>
+            <li> Services1 </li>
+            <li> Services2 </li>
+            <li> Services3 </li>
+        </ul>
+    </div>
+    <div class="complain">
+        <form action="index.html" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"> <br> <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"> <br> <br>
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone"> <br> <br>
+            <label for="complain">Complain:</label> <br> <br>
+            <textarea id="complain" name="complain"></textarea> <br> <br>
+            <input type="button" value="Save" class="savebtn">
+        </form>
+    </div>
+    <div class="complainform">
+        <p class="complaintext"></p>
+        <p class="name"></p>
+        <p class="email"></p>
+        <p class="phone"></p>
+        <input type="button" value="Back To edit" class="backbtn">
+
+
+        
+</body>
+</html>
